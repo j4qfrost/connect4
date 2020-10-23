@@ -18,7 +18,6 @@ Chip::Chip(float x, float y, bool isRed) {
 }
 
 void Chip::Update() {
-  std::cout << "Hellop" << std::endl;
   if (this->active) {
     /* sf::Event event; */
 
